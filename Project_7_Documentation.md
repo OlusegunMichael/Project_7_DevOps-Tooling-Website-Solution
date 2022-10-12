@@ -138,7 +138,7 @@ The following set of command was ran
 * *`setsebool -P httpd_execmem 1`*
 
 ![Remi](./Project_7_Images/Remi.PNG)
-#### All the implemented procedures in step 3 repeated for Web server 2 and Web Server 3.
+#### All the implemented procedures in step 3 above are repeated for Web server 2 and Web Server 3.
 >#### Verify if NFS is correctly Mounted by Creating a text file text.txt in Web-Server1 (in directory  /var/www) and check if it is accessible from Web-Server2 and Web-server3
 ![text](./Project_7_Images/text.PNG)
 ![text](./Project_7_Images/text1.PNG)
@@ -157,7 +157,6 @@ Tooling source code is forked from Darey.io Github Account to my  Github account
 >#### To ensure the content in the html folder from the tooling app into deployed to the web server at /var/www/html, the html file is copied using;
 * *`cd tooling`*- (enters tooling directory)
 * *`sudo cp -R html/. /var/www/html`* -(copies html from tooling directory to /var/www/)
-![copy](./Project_7_Images/)
 
 ![git](./Project_7_Images/instal%20git.PNG)
 ![git](./Project_7_Images/git%20init.PNG)
@@ -169,7 +168,8 @@ Tooling source code is forked from Darey.io Github Account to my  Github account
 
 ![selinux](./Project_7_Images/sysctl.PNG)
 ![selinux](./Project_7_Images/selinux.PNG)
-Update the website’s configuration to connect to the database. In the function.php (/var/www/html/functions.php) update the authentication details you used when creating the DB Server.
+>#### Updating the website’s configuration to connect to the database. 
+In the function.php (/var/www/html/functions.php) authentication details used when creating the DB Server is updated using *`sudo vi /var/www/html/functions.php`*
 ![WS-DB](./Project_7_Images/ws%20con%20to%20DB.PNG)
 >#### Install mysql Client on the Web Server 
 **`sudo yum install mysql -y`* - (Install mysql Client)
