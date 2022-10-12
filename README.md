@@ -6,3 +6,5 @@ In the Project Web Servers share a common database and also access the same file
 * [x] Storage Server: Red Hat Enterprise Linux 8 + NFS Server
 * [x] Programming Language: PHP
 * [x] Code Repository: GitHub
+
+![3tiers](./Project_7_Images/3Tiers.PNG)
